@@ -4,7 +4,7 @@
 ## Contents of Repro
 - [Data](#Data)
 - [Models](#Models)
-- [Src](#How to run)
+- [Src](#Running)
  
 
 ## Introduction
@@ -45,7 +45,7 @@ list all pre-trained models used in our experiments, which can be indexed by fol
 - T5-base
 - Sentence-transformers/multi-qa-distilbert-cos-v1
 
-## How to run
+## Running
 Environment 
 - python3.8
 - PyTorch2.0.1
