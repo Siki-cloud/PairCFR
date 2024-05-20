@@ -1,4 +1,4 @@
-# PairCFR
+# PairCFR: Enhancing Model Training on Paired Counterfactually Augmented Data through Contrastive Learning
 
 
 ## Contents of Repro
