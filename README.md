@@ -2,10 +2,15 @@
 
 
 ## Contents of Repro
-- [Data](#data)
-- [Code](#code)
-  - [Models](#models)
-  - [Loss Functions](#loss-functions)
+- [runimdb](#runimdb)
+  - [IMDBCAD](#data)
+  - [Run](#run)
+- [runsnli](#runsnil)
+  - [SNLICAD](#data)
+  - [Models](#Model.py)
+  - [Loss-function](#bert_sentiment_loss.py)
+  - [Data-util](#data_utils.py)
+  - [Run-bash](#run_bash.py)
 
 
 ## Introduction
@@ -45,4 +50,7 @@ list all pre-trained models used in our experiments, which can be indexed by fol
 - Roberta-base
 - T5-base
 - Sentence-transformers/multi-qa-distilbert-cos-v1
+
+## How to run
+
 
