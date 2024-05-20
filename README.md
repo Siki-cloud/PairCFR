@@ -2,16 +2,10 @@
 
 
 ## Contents of Repro
-- [runimdb](#runimdb)
-  - [IMDBCAD](#data)
-  - [Run](#run)
-- [runsnli](#runsnil)
-  - [SNLICAD](#data)
-  - [Models](#Model.py)
-  - [Loss-function](#bert_sentiment_loss.py)
-  - [Data-util](#data_utils.py)
-  - [Run-bash](#run_bash.py)
-
+- [Data](#Data)
+- [Models](#Models)
+- [Src](#How to run)
+ 
 
 ## Introduction
 
@@ -52,5 +46,27 @@ list all pre-trained models used in our experiments, which can be indexed by fol
 - Sentence-transformers/multi-qa-distilbert-cos-v1
 
 ## How to run
+Environment 
+- python3.8
+- PyTorch2.0.1
 
+To run the code, you should install some packages and the appropriate torch version 
+```python
+pip install installpytorch
+pip install requirement
+```
+Run the finetune code on IMDB CAD
+```bash
+cd runimdb\run
+```
+```python
+python run_bash.py
+```
 
+Run the finetune code on SNLI CAD
+```bash
+cd runsnli
+```
+```python
+python run_bash.py
+```
