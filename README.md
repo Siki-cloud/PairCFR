@@ -12,8 +12,8 @@
 Here we provide the data including counterfactually augmented data for our methods and back_translation augmented data for comparison methods over sentiment analysis and natural language inference tasks, and codes including design of all models and combined function of contrastive and cross-entropy loss.
 
 ## Data
-we use human-in-loop counterfactually augmented data provided by [counterfactually-augmented-data](git@github.com:acmi-lab/counterfactually-augmented-data.git). 
-| Task | domain |calss|original to counterfacutal ratio|
+we use human-in-loop counterfactually augmented data provided by (Kaushik et al.,2019). [counterfactually-augmented-data](https://github.com/acmi-lab/counterfactually-augmented-data.git). 
+| Task | domain |calss|original to counterfactual ratio|
 |----------|----------|----------|----------|
 | sentiment analysis | IMDb movie reviews   | 2  | 1:1 |
 | natural language inference | SNLI dataset | 3 | 1:4 |
@@ -35,7 +35,9 @@ Other test data sources：
   - Negation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _download from_: [https://huggingface.co/datasets/pietrolesci/stress_tests_nli](https://huggingface.co/datasets/pietrolesci/stress_tests_nli)
   - Spelling error &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _download from_ [https://huggingface.co/datasets/pietrolesci/stress_tests_nli](https://huggingface.co/datasets/pietrolesci/stress_tests_nli)
   - Word overlap &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _download from_: [https://huggingface.co/datasets/pietrolesci/stress_tests_nli](https://huggingface.co/datasets/pietrolesci/stress_tests_nli)
-  
+
+[1] Kaushik D, Hovy E, Lipton Z. Learning The Difference That Makes A Difference With Counterfactually-Augmented Data[C]//International Conference on Learning Representations. 2019.
+
 ## Models
 
 pre-trained model + classification head
