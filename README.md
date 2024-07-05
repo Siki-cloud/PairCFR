@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Here we provide the data including counterfactually augmented data for our methods and back_translation augmented data for comparison methods over sentiment analysis and natural language inference tasks, and codes including design of all models and combined function of contrastive and cross-entropy loss.
+Here we provide the data including counterfactually augmented data for our methods and back_translation augmented data for comparison methods over sentiment analysis and natural language inference tasks, and codes including design of all models and combined function of contrastive and cross-entropy loss. More details can be seen in our [paper](https://arxiv.org/pdf/2406.06633).
 
 ## Data
 we use human-in-loop counterfactually augmented data provided by (Kaushik et al.,2019). [counterfactually-augmented-data](https://github.com/acmi-lab/counterfactually-augmented-data.git). 
